@@ -1,0 +1,898 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlink{
+    font-size: 18px;
+    color: white;
+}
+
+.navl{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url('car-wallpapers-sand-water-snow-asphalt_843175-43082.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.headtext{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: poppins;
+}
+
+.part1{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.p1holder{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.p1pic2{
+    width: 500px;
+    height: 400px;
+    background-image: url('2014-toyota-corolla-comfort-4door-sedan-2wd-front-view.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1pic1{
+    width: 500px;
+    height: 400px;
+    background-image: url('listing_main_Toyota_Land_Cruiser.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1view{
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toyo{
+    font-size: 60px;
+    font-family: josefin sans;
+}
+
+.part2{
+    width: 100%;
+    height: 400px;
+    background-image: url('High_resolution_wallpaper_background_ID_77700221137.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.quality{
+    width: 50%;
+    font-size: 40px;
+    font-family: poppins;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.part3{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.p3holder{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.p3pic2{
+    width: 500px;
+    height: 400px;
+    background-image: url('2018-mercedes-benz-e-class-e300-4-door-sedan-front-view.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3pic1{
+    width: 500px;
+    height: 400px;
+    background-image: url('2018_mercedes_benz_gle_class_mercedes_18gle3504wdod2a_frontview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part7{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.p7holder{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.p7pic2{
+    width: 500px;
+    height: 400px;
+    background-image: url('2018-lexus-es-300h-4door-sedan-front-view.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p7pic1{
+    width: 500px;
+    height: 400px;
+    background-image: url('2017-lexus-rx-350-l-suv-front-view.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part5{
+    width: 100%;
+    height: 400px;
+    background-image: url('Screenshot_24-6-2024_105715_www.lexus.com.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part6{
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .part6hold{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .part61{
+    width: 33%;
+    height: 400px;
+    background-image: url('sec31.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part62{
+    width: 33%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .part63{
+    width: 33%;
+    height: 400px;
+    background-image: url('sec34.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part64{
+    width: 100%;
+    height: 200px;
+    background-image: url('sec32.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part65{
+    width: 100%;
+    height: 200px;
+    background-image: url('sec33.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  footer{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cus{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+}
+
+.cnus{
+    color: white;
+}
+
+.holder{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.holder1{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder2{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder3{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder4{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.hold1{
+    color: white;
+}
+
+.hold12{
+    color: white;
+}
+
+.hold13{
+    color: white;
+}
+
+.hold14{
+    color: white;
+}
+
+.hold21{
+    color: white;
+}
+
+.hold22{
+    color: white;
+}
+
+.hold23{
+    color: white;
+}
+
+.hold24{
+    color: white;
+}
+
+.hold31{
+    color: white;
+}
+
+.hold32{
+    color: white;
+}
+
+.hold33{
+    color: white;
+}
+
+.hold34{
+    color: white;
+}
+
+.hold41{
+    color: white;
+}
+
+.hold42{
+    color: white;
+}
+
+.hold43{
+    color: white;
+}
+
+.engl1{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 159, 159);
+    justify-content: center;
+    border: 2px solid rgb(160, 159, 159);
+    border-radius: 5px;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.part4{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .part4flow{
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    gap: 80px;
+    overflow-x: scroll; 
+  }
+
+  .part4cars1{
+    background-image: url('ex1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars2{
+    background-image: url('ex2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars3{
+    background-image: url('ex3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars4{
+    background-image: url('ex4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars5{
+    background-image: url('ex5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars6{
+    background-image: url('ex6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars7{
+    background-image: url('ex7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars8{
+    background-image: url('ex8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars9{
+    background-image: url('ex9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars10{
+    background-image: url('ex10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+
+  .part4cars11{
+    background-image: url('ex11.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars12{
+    background-image: url('ex12.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars13{
+    background-image: url('ex13.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars14{
+    background-image: url('ex15.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+
+@media screen and (max-width: 500px){
+
+    .quality{
+        width: 50%;
+        font-size: 28px;
+        font-family: poppins;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: bold;
+    }
+
+    .p1holder{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .p1pic2{
+        width: 70%;
+        height: 200px;
+        background-image: url('2014-toyota-corolla-comfort-4door-sedan-2wd-front-view.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .p1pic1{
+        width: 70%;
+        height: 200px;
+        background-image: url('listing_main_Toyota_Land_Cruiser.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .p1view{
+        width: 200px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .toyo{
+        font-size: 40px;
+        font-family: josefin sans;
+    }    
+    
+    .p7holder{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .p7pic2{
+        width: 70%;
+        height: 200px;
+        background-image: url('2018-lexus-es-300h-4door-sedan-front-view.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .p7pic1{
+        width: 70%;
+        height: 200px;
+        background-image: url('2017-lexus-rx-350-l-suv-front-view.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .p3holder{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .p3pic2{
+        width: 70%;
+        height: 200px;
+        background-image: url('2018-mercedes-benz-e-class-e300-4-door-sedan-front-view.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .p3pic1{
+        width: 70%;
+        height: 200px;
+        background-image: url('2018_mercedes_benz_gle_class_mercedes_18gle3504wdod2a_frontview.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .part4{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .part4flow{
+        width: 100%;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+        gap: 80px;
+        overflow-x: scroll; 
+      }
+    
+      .part4cars1{
+        background-image: url('ex1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars2{
+        background-image: url('ex2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars3{
+        background-image: url('ex3.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars4{
+        background-image: url('ex4.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars5{
+        background-image: url('ex5.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars6{
+        background-image: url('ex6.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars7{
+        background-image: url('ex7.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars8{
+        background-image: url('ex8.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars9{
+        background-image: url('ex9.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars10{
+        background-image: url('ex10.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+    
+      .part4cars11{
+        background-image: url('ex11.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars12{
+        background-image: url('ex12.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars13{
+        background-image: url('ex13.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+    
+      .part4cars14{
+        background-image: url('ex15.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        /* width: 700px; */
+        height: 200px;
+      }
+
+      .part6{
+        width: 100%;
+        height: fit-content;
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+      }
+    
+      .part6hold{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    
+      .part61{
+        width: 90%;
+        height: 400px;
+        background-image: url('sec31.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      .part62{
+        width: 90%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    
+      .part63{
+        width: 90%;
+        height: 400px;
+        background-image: url('sec34.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    
+      .part64{
+        width: 100%;
+        height: 400px;
+        background-image: url('sec32.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    
+      .part65{
+        width: 100%;
+        height: 400px;
+        background-image: url('sec33.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .holder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin-top: 20px;
+    }
+
+}
